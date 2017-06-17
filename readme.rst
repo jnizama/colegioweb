@@ -1,5 +1,5 @@
 ###################
-ColegioWeb (php project to public peruvian school)
+ColegioWeb (Project to Public Peruvian School)
 ###################
 
 Project built with PHP Codeigniter, Postgresql, Javascript Jquery, Bootstrap Framework.
@@ -9,17 +9,19 @@ The purpose of this project is control different operations to Students, Teacher
 It cover aspects such as:
 *******************
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
+-  `User Guide <https://github.com/jnizama/colegioweb>`_
+-  `Reglamento Estudiantil <https://github.com/jnizama/colegioweb>`_
+-  `Subscriptions (Matricula) <https://github.com/jnizama/colegioweb>`_
+-  `Teachers <https://github.com/jnizama/colegioweb>`_
+-  `CTA Area <https://github.com/jnizama/colegioweb>`_
+-  `Notes of Students <https://github.com/jnizama/colegioweb>`_
+-  `Fotos <https://github.com/jnizama/colegioweb>`_
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Report any sugestion or nots issues to `Email <mailto:jorgenizamarios@gmail.com>`_
+thank you.
 
 ***************
 Acknowledgement
 ***************
 
-The CodeIgniter team.
+The CodeIgniter Team.
