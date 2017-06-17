@@ -1,7 +1,7 @@
-<div class="page-pedidos container">
+<div class="page-profe-cta container">
   <div class="page-title">
     <div class="title_left">
-      <h3>CTA del Profesor</small></h3>
+      <h3>CTA del Alumno</small></h3>
     </div>
   </div>
 
@@ -16,7 +16,14 @@
     </div>
     <div class="col-md-3 col-sm-3 col-xs-4 col-lg-3">
       <div>
-        <select class="form-control" id="dropdownSucursal" class="selectpicker" ></select>
+        <select class="form-control" id="dropdownSucursal" class="selectpicker" >
+          <option value='' selected >Seleccione</option>
+          <option value='' >1 Grado Secundaria</option>
+          <option value='' >2 Grado Secundaria</option>
+          <option value='' >3 Grado Secundaria</option>
+          <option value='' >4 Grado Secundaria</option>
+          <option value='' >5 Grado Secundaria</option>
+        </select>
       </div>
     </div>
 
@@ -53,20 +60,58 @@
     <div class="col-md-12 col-sm-12 col-xs-12">
       <div class="x_panel">
         <div class="x_content">
-          <table id="dtPedidos" class="table table-striped table-bordered table">
+          <table id="dtPedidos" class="table table-striped table-bordered">
             <thead>
               <tr>
                 <th>N•</th>
-                <th>Nombre</th>
-                <th>Secci&oacute;n</th>
-                <th>Num. de Sessiones</th>
-                <th>Num. de Evaluaciones</th>
-                <th>Situaci&oacute;n</th>
-                <th style="display:none"></th>
+                <th>CTA</th>
+                <th>Nombre del Tema</th>
+                <th>Horas Lectivas</th>
+                <th>Nivel</th>
+                <th>Estado</th>
+                <th>Operaci&oacute;n</th>
               </tr>
             </thead>
 
             <tbody>
+              <tr>
+                <td>1</td>
+                <td>Biolog&iacute;a</td>
+                <td>El Citoplasma</td>
+                <td>12 horas</td>
+                <td>B&aacute;sico</td>
+                <td>Preparado</td>
+                <td style="width: 80px; text-align:center">
+                  <a href="<?php echo base_url(); ?>ctaalu/detailcta"><i class="glyphicon glyphicon-pencil"></i></a>
+                  <a href="#"><i class="glyphicon glyphicon-remove"></i></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Qu&iacute;mica</td>
+                <td>El ox&iacute;geno</td>
+                <td>9 horas</td>
+                <td>B&aacute;sico</td>
+                <td>Preparado</td>
+                <td style="width: 80px; text-align:center">
+                  <a href="#"><i class="glyphicon glyphicon-pencil"></i></a>
+                  <a href="#"><i class="glyphicon glyphicon-remove"></i></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>F&iacute;sica</td>
+                <td>El Movimiento</td>
+                <td>6 horas</td>
+                <td>Intermedio</td>
+                <td>No Preparado</td>
+                <td style="width: 80px; text-align:center">
+                  <a href="#"><i class="glyphicon glyphicon-pencil"></i></a>
+                  <a href="#"><i class="glyphicon glyphicon-remove"></i></a>
+                </td>
+              </tr>
 
             </tbody>
 
@@ -78,7 +123,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-
+                  <td></td>
                 </tr>
             </tfoot>
 
@@ -90,13 +135,11 @@
 
   <div class="row">
     <div class="col-md-2 col-sm-2 col-xs-2 col-lg-1">
-        <button type="button" id="btnEditar" data-toggle="modal" data-target="#modalDetaPedido" class="btn btn-primary">Editar</button>
+        <button type="button" id="btnEditar" data-toggle="modal" data-target="#modalDetaPedido"
+        class="btn btn-primary">Nuevo</button>
     </div>
     <div class="col-md-2 col-sm-2 col-xs-4 col-lg-2">
         <button type="button" class="btn btn-success">Imprimir</button>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 col-lg-1">
-        <button type="button" class="btn btn-danger">Eliminar</button>
     </div>
  </div>
 </div>

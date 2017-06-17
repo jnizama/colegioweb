@@ -138,12 +138,14 @@
 
         <footer>
           <div class="pull-right">
-            restaruantesperuanos.com Admin Panel works on <a href="http://jorgenizama.com" target="_blank">Jorge Nizama</a>
+            colegiomariscalcaceres.com Admin Panel
           </div>
           <div class="clearfix"></div>
         </footer>
         <!-- /footer content -->
     </div>
+
+
   </body>
     <!-- jQuery -->
     <script src="<?php echo base_url(); ?>js/jquery.min.js"></script>
@@ -160,8 +162,10 @@
     <script src="<?php echo base_url(); ?>js/bootstrap-datepicker.min.js"></script>
     <script src="<?php echo base_url(); ?>js/script.js"></script>
 
+
+
     <script src="<?php echo base_url(); ?>js/jquery.bootstrap-touchspin.min.js"></script>
 
-
+    <script src="<?php echo base_url(); ?>js/profe/page-cta-master.js"></script>
 
 </html>

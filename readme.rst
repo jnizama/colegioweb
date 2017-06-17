@@ -15,7 +15,8 @@ It cover aspects such as:
 -  `Teachers <https://github.com/jnizama/colegioweb>`_
 -  `CTA Area <https://github.com/jnizama/colegioweb>`_
 -  `Notes of Students <https://github.com/jnizama/colegioweb>`_
--  `Fotos <https://github.com/jnizama/colegioweb>`_
+-  `Foros <https://github.com/jnizama/colegioweb>`_
+-  `Chat <https://github.com/jnizama/colegioweb>`_
 
 Report any sugestion or nots issues to `Email <mailto:jorgenizamarios@gmail.com>`_
 thank you.

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Ctiprofe extends CI_Controller {
+class Ctaalu extends CI_Controller {
   function __construct()
   {
     // Construct the parent class
@@ -13,7 +13,13 @@ class Ctiprofe extends CI_Controller {
   }
   public function index()
 	{
-    $data['content'] = 'pages/ctiprofe/index'; //
+    $data['content'] = 'pages/ctaalu/index'; //
+		$this->load->helper('url');
+    $this->load->view('layout/master', $data);
+  }
+  public function detailCTA()
+	{
+    $data['content'] = 'pages/ctaalu/detailcta'; //
 		$this->load->helper('url');
     $this->load->view('layout/master', $data);
   }

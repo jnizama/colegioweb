@@ -13,8 +13,11 @@
 					<?php echo _( 'Mis Alumnos' ); ?> </a></li>
 				<li><a href="index.php?page=users"><i class="fa fa-user"></i>
 					<?php echo _( 'Mi Perfil' ); ?> </a></li>
-				<li><a href="<?php echo site_url('ctiprofe/'); ?>"><i class="fa fa-arrow-circle-right"></i>
-					<?php echo _( 'Area CTA' ); ?> </a></li>
+				<li  class="nav nav-list">
+					<a href="<?php echo site_url('ctaprofe/'); ?>"><i class="fa fa-arrow-circle-right"></i>
+					<?php echo _( 'Area CTA' ); ?> </a>
+				</li>
+
 				<li><a href="index.php?page=users"><i class="fa fa-arrow-circle-right"></i>
 						<?php echo _( 'Crear Evaluaci&oacute;n' ); ?> </a></li>
 				<li><a href="index.php?page=users"><i class="fa fa-arrow-circle-right"></i>
