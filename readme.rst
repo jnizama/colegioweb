@@ -2,54 +2,12 @@
 ColegioWeb (php project to public peruvian school)
 ###################
 
- -Project builded with PHP Codeigniter, Postgresql, Javascript Jquery, Bootstrap Framework.
- +Project built with PHP Codeigniter, Postgresql, Javascript Jquery, Bootstrap Framework.
-  The purpose of this project is control different operations to Students, Teachers and Adminstrative Personal in a students private institution (primary and secondary).
-
-  It cover aspects such as:
+Project built with PHP Codeigniter, Postgresql, Javascript Jquery, Bootstrap Framework.
+The purpose of this project is control different operations to Students, Teachers and Adminstrative Personal in a students private institution (primary and secondary).
 
 *******************
-Release Information
+It cover aspects such as:
 *******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.4 or newer is recommended.
-
-It should work on 5.2.4 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
 
 -  `User Guide <https://codeigniter.com/docs>`_
 -  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
@@ -64,5 +22,4 @@ or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 Acknowledgement
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+The CodeIgniter team.
