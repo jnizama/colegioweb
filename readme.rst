@@ -1,14 +1,12 @@
 ###################
-What is CodeIgniter
+ColegioWeb (php project to public peruvian school)
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+ -Project builded with PHP Codeigniter, Postgresql, Javascript Jquery, Bootstrap Framework.
+ +Project built with PHP Codeigniter, Postgresql, Javascript Jquery, Bootstrap Framework.
+  The purpose of this project is control different operations to Students, Teachers and Adminstrative Personal in a students private institution (primary and secondary).
+
+  It cover aspects such as:
 
 *******************
 Release Information
