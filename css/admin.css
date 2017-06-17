@@ -1,0 +1,30 @@
+.derecha {
+  clear: none;
+  text-align: right;
+  vertical-align: bottom;
+}
+.izquierda {
+  clear: none;
+  text-align: left;
+  vertical-align: center;
+}
+.estadopedido {
+  border: 0px;
+  cursor: default;
+
+}
+.estadopedido:hover{
+  background: #f0ad4e;
+}
+.selected td { background-color: #649eda; color: #ffffff;}
+
+.izquierda_espacio_40px {
+  clear: none;
+  text-align: left;
+  vertical-align: center;
+  padding-left: 40px;
+}
+#dtDetallePedido {
+  margin-bottom: 0px;
+}
+#modalDetaPedido .modal-dialog  {width:78%;}
